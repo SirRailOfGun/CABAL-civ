@@ -1,38 +1,43 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
+		"name": "CABAL",
+		"leaderName": "Computer Assisted Biologically Augmented Lifeform",
+		"adjective": ["robot"],
 		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "<timestream distortion fading>\n<chronology stabilizing>\n<Adjusted date:4000 BC>\nThe timeshift has worked! You have escaped from the clutches of time, and ",
+		"startIntroPart2": "Now that you command the past, the world is yours to conquer!",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": ["You have been marked for termination.","By the way; <missile launch detected>"],
+		"attacked": "I tire of your insignificant defiance.",
+		"defeated": "I have collected enough data. You may return to your lives. For now.",
+		"introduction": "Behold, mortal, for I am as a god.",
 		
 		"neutralHello": "How are you doing?",
 		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralNo": ["Not good enough.","No.","I refuse."],
+		"neutralYes": ["Very good.","Yes.","That is acceptable."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateHello": "Your defeat is at hand.",
+		"hateLetsHearIt": "Speak.",
+		"hateNo": ["Negative","No","<connection terminated>"],
+		"hateYes": ["Affirm.","Sufficient."],
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"afterPeace": "Very well, I shall collate the data from this conflict.",
 		"tradeRequest": "We bestow you the honor of this trade offer.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"outerColor": [0,0,139],
+		"innerColor": [0,255,255],
+		"uniqueName": "Cybernetic Synthesis",
+		"uniques": [
+			"units gain the [Nerve Stapled] promotion",
+			"Nullifies [faith] [in all cities]",
+			"[1] population in a random city <when above [4] [data]><upon turn end> <for [AI player]><hidden from users>",
+			"Instantly consumes [4] [data] <when above [4] [data]><upon turn end> <for [AI player]><hidden from users>"
+			"Free Technology <when above [15] [data]><upon turn end> <for [AI player]><hidden from users>",
+			"Instantly consumes [15] [data] <when above [15] [data]><upon turn end> <for [AI player]><hidden from users>"
+		]
+		"cities": ["Alef","Bet","Gimel","Dalet","He","Vav","Zayin","Het","Tet","Yod"]
 	}
 ]

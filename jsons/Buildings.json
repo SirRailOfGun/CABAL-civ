@@ -1,25 +1,45 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Production optimization",
+		"uniqueTo": "CABAL",
+		"cost": 0,
+		"uniques": [
+			"Unsellable", "Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Instantly consumes [6] [Data]",
+			"Unbuildable <when below [6] [Data]>",
+			"[+1] population [in this city]",
+			"Only available<in cities with [1] [Population]>",
+			"Remove [Data Collation] [in this city]<after [1] turns>"
+		]
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Drone placation",
+		"uniqueTo": "CABAL",
+		"cost": 0,
+		"uniques": [
+			"Unsellable", "Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Instantly consumes [2] [Data]",
+			"Unbuildable <when below [2] [Data]>",
+			"Only available<in cities with [1] [Population]>",
+			"[-100]% Unhappiness from [Population] [in this city] <for [10] turns>",
+			"Remove [Drone placation] [in this city] <after [10] turns>"
+		]
+	},
+	{
+		"name": "Research allocation",
+		"uniqueTo": "CABAL",
+		"science": 3,
+		"cost": 0,
+		"uniques": [
+			"Unsellable", "Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Instantly consumes [4] [Data]",
+			"Unbuildable <when below [4] [Data]>",
+			"Only available<in cities with [1] [Population]>",
+			"[100]% [science] [in this city] <for [10] turns>",
+			"Remove [Research allocation] [in this city] <after [10] turns>"
+		]
+	},
 ]

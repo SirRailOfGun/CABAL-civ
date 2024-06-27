@@ -7,3 +7,6 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 
 The following is from [freesound] (https://freesound.org) licensed under the Creative Commons 0 License. 
 * [phaser] modified from (https://freesound.org/people/IanStarGem/sounds/341831/) by IanStarGem
+* [CABAL] ("https://thenounproject.com/browse/icons/term/ai/") by Kiki Rizky 
+
+All the CABAL stuff is based on Westwood Studio's game Command & Conquer: Tiberian Sun and it's expansion Firestorm.
