@@ -2,11 +2,11 @@
 	{
 		"name": "CABAL",
 		"leaderName": "Computer Assisted Biologically Augmented Lifeform",
-		"adjective": ["robot"],
+		"adjective": ["cyborg"],
 		"startBias": ["Snow"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "<timestream distortion fading>\n<chronology stabilizing>\n<Adjusted date:4000 BC>\nThe timeshift has worked! You have escaped from the clutches of time, and ",
+		"startIntroPart1": "<timestream distortion fading>\n<chronology stabilizing>\n<Adjusted date:4000 BC>\nThe time-shift has worked! You have escaped from the clutches of time, and now reside at the beginning of civilization.",
 		"startIntroPart2": "Now that you command the past, the world is yours to conquer!",
 		
 		"declaringWar": ["You have been marked for termination.","By the way; <missile launch detected>"],
